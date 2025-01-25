@@ -1,0 +1,196 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.1  0.3  23232 14200 ?        Ss   Jan24   0:21 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    Jan24   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    Jan24   0:00 [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   Jan24   0:00 [kworker/R-rcu_g]
+root           5  0.0  0.0      0     0 ?        I<   Jan24   0:00 [kworker/R-rcu_p]
+root           6  0.0  0.0      0     0 ?        I<   Jan24   0:00 [kworker/R-slub_]
+root           7  0.0  0.0      0     0 ?        I<   Jan24   0:00 [kworker/R-netns]
+root          12  0.0  0.0      0     0 ?        I<   Jan24   0:00 [kworker/R-mm_pe]
+root          13  0.0  0.0      0     0 ?        I    Jan24   0:00 [rcu_tasks_kthread]
+root          14  0.0  0.0      0     0 ?        I    Jan24   0:00 [rcu_tasks_rude_kthread]
+root          15  0.0  0.0      0     0 ?        I    Jan24   0:00 [rcu_tasks_trace_kthread]
+root          16  0.0  0.0      0     0 ?        S    Jan24   0:14 [ksoftirqd/0]
+root          17  0.1  0.0      0     0 ?        I    Jan24   0:18 [rcu_preempt]
+root          18  0.0  0.0      0     0 ?        S    Jan24   0:00 [migration/0]
+root          19  0.0  0.0      0     0 ?        S    Jan24   0:00 [idle_inject/0]
+root          20  0.0  0.0      0     0 ?        S    Jan24   0:00 [cpuhp/0]
+root          21  0.0  0.0      0     0 ?        S    Jan24   0:00 [cpuhp/1]
+root          22  0.0  0.0      0     0 ?        S    Jan24   0:00 [idle_inject/1]
+root          23  0.0  0.0      0     0 ?        S    Jan24   0:02 [migration/1]
+root          24  0.1  0.0      0     0 ?        S    Jan24   0:27 [ksoftirqd/1]
+root          27  0.0  0.0      0     0 ?        S    Jan24   0:00 [kdevtmpfs]
+root          28  0.0  0.0      0     0 ?        I<   Jan24   0:00 [kworker/R-inet_]
+root          30  0.0  0.0      0     0 ?        S    Jan24   0:00 [kauditd]
+root          32  0.0  0.0      0     0 ?        S    Jan24   0:00 [khungtaskd]
+root          33  0.0  0.0      0     0 ?        S    Jan24   0:00 [oom_reaper]
+root          35  0.0  0.0      0     0 ?        I<   Jan24   0:00 [kworker/R-write]
+root          36  0.0  0.0      0     0 ?        S    Jan24   0:02 [kcompactd0]
+root          37  0.0  0.0      0     0 ?        SN   Jan24   0:00 [ksmd]
+root          38  0.0  0.0      0     0 ?        SN   Jan24   0:00 [khugepaged]
+root          39  0.0  0.0      0     0 ?        I<   Jan24   0:00 [kworker/R-kinte]
+root          40  0.0  0.0      0     0 ?        I<   Jan24   0:00 [kworker/R-kbloc]
+root          41  0.0  0.0      0     0 ?        I<   Jan24   0:00 [kworker/R-blkcg]
+root          42  0.0  0.0      0     0 ?        S    Jan24   0:00 [irq/9-acpi]
+root          43  0.0  0.0      0     0 ?        I<   Jan24   0:00 [kworker/R-tpm_d]
+root          44  0.0  0.0      0     0 ?        I<   Jan24   0:00 [kworker/R-ata_s]
+root          45  0.0  0.0      0     0 ?        I<   Jan24   0:00 [kworker/R-md]
+root          46  0.0  0.0      0     0 ?        I<   Jan24   0:00 [kworker/R-md_bi]
+root          47  0.0  0.0      0     0 ?        I<   Jan24   0:00 [kworker/R-edac-]
+root          48  0.0  0.0      0     0 ?        I<   Jan24   0:00 [kworker/R-devfr]
+root          49  0.0  0.0      0     0 ?        S    Jan24   0:00 [watchdogd]
+root          51  0.0  0.0      0     0 ?        S    Jan24   0:00 [kswapd0]
+root          52  0.0  0.0      0     0 ?        S    Jan24   0:00 [ecryptfs-kthread]
+root          53  0.0  0.0      0     0 ?        I<   Jan24   0:00 [kworker/R-kthro]
+root          54  0.0  0.0      0     0 ?        I<   Jan24   0:00 [kworker/R-acpi_]
+root          56  0.0  0.0      0     0 ?        S    Jan24   0:00 [scsi_eh_0]
+root          57  0.0  0.0      0     0 ?        I<   Jan24   0:00 [kworker/R-scsi_]
+root          58  0.0  0.0      0     0 ?        S    Jan24   0:00 [scsi_eh_1]
+root          59  0.0  0.0      0     0 ?        I<   Jan24   0:00 [kworker/R-scsi_]
+root          63  0.0  0.0      0     0 ?        I<   Jan24   0:00 [kworker/R-mld]
+root          65  0.0  0.0      0     0 ?        I<   Jan24   0:00 [kworker/R-ipv6_]
+root          72  0.0  0.0      0     0 ?        I<   Jan24   0:00 [kworker/R-kstrp]
+root          74  0.0  0.0      0     0 ?        I<   Jan24   0:00 [kworker/u5:0]
+root          87  0.0  0.0      0     0 ?        I<   Jan24   0:00 [kworker/R-charg]
+root         135  0.0  0.0      0     0 ?        S    Jan24   0:00 [scsi_eh_2]
+root         136  0.0  0.0      0     0 ?        I<   Jan24   0:00 [kworker/R-scsi_]
+root         148  0.0  0.0      0     0 ?        I<   Jan24   0:00 [kworker/R-ttm]
+root         212  0.0  0.0      0     0 ?        S    Jan24   0:06 [jbd2/sda2-8]
+root         213  0.0  0.0      0     0 ?        I<   Jan24   0:00 [kworker/R-ext4-]
+root         329  0.0  0.2  30520  8632 ?        Ss   Jan24   0:03 /usr/lib/systemd/systemd-udevd
+root         385  0.0  0.0      0     0 ?        S    Jan24   0:00 [psimon]
+systemd+     403  0.0  0.1  17556  7552 ?        Ss   Jan24   0:05 /usr/lib/systemd/systemd-oomd
+systemd+     408  0.0  0.3  21584 13184 ?        Ss   Jan24   0:01 /usr/lib/systemd/systemd-resolved
+root         566  0.0  0.0      0     0 ?        I<   Jan24   0:00 [kworker/R-crypt]
+avahi        577  0.0  0.1   8664  4352 ?        Ss   Jan24   0:02 avahi-daemon: running [saravanan-VirtualBox.local]
+message+     579  0.2  0.1  12208  7040 ?        Ss   Jan24   0:32 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+gnome-r+     595  0.0  0.4 512804 16252 ?        Ssl  Jan24   0:00 /usr/libexec/gnome-remote-desktop-daemon --system
+polkitd      609  0.0  0.2 310904 11008 ?        Ssl  Jan24   0:04 /usr/lib/polkit-1/polkitd --no-debug
+root         622  0.0  0.1 322168  7424 ?        Ssl  Jan24   0:00 /usr/libexec/power-profiles-daemon
+root         658  0.0  0.1 321960  7768 ?        Ssl  Jan24   0:01 /usr/libexec/accounts-daemon
+root         661  0.0  0.0  18092  2816 ?        Ss   Jan24   0:00 /usr/sbin/cron -f -P
+root         665  0.0  0.1 318388  6400 ?        Ssl  Jan24   0:00 /usr/libexec/switcheroo-control
+root         686  0.0  0.2  18112  8832 ?        Ss   Jan24   0:07 /usr/lib/systemd/systemd-logind
+root         696  0.0  0.3 469240 14276 ?        Ssl  Jan24   0:03 /usr/libexec/udisks2/udisksd
+syslog       743  0.0  0.1 222564  6016 ?        Ssl  Jan24   0:01 /usr/sbin/rsyslogd -n -iNONE
+avahi        769  0.0  0.0   8476  1420 ?        S    Jan24   0:00 avahi-daemon: chroot helper
+root         775  0.0  0.4 344976 19136 ?        Ssl  Jan24   0:06 /usr/sbin/NetworkManager --no-daemon
+root         777  0.0  0.1  17376  6528 ?        Ss   Jan24   0:00 /usr/sbin/wpa_supplicant -u -s -O DIR=/run/wpa_supplicant GROUP=netdev
+root         815  0.0  0.3 392092 12756 ?        Ssl  Jan24   0:01 /usr/sbin/ModemManager
+root        1032  0.0  0.3  46900 12032 ?        Ss   Jan24   0:00 /usr/sbin/cupsd -l
+root        1041  0.0  0.5 120908 22912 ?        Ssl  Jan24   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root        1045  0.0  0.1  12020  7936 ?        Ss   Jan24   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+cups-br+    1071  0.0  0.4 268392 19840 ?        Ssl  Jan24   0:00 /usr/sbin/cups-browsed
+kernoops    1073  0.0  0.0  12744  2220 ?        Ss   Jan24   0:00 /usr/sbin/kerneloops --test
+kernoops    1076  0.0  0.0  12744  2184 ?        Ss   Jan24   0:00 /usr/sbin/kerneloops
+root        1597  0.1  0.0 355732  3592 ?        Sl   Jan24   0:18 /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+root        2130  0.0  0.2 323484  9216 ?        Ssl  Jan24   0:00 /usr/sbin/gdm3
+rtkit       2181  0.0  0.0  88476  3456 ?        SNsl Jan24   0:02 /usr/libexec/rtkit-daemon
+colord      2272  0.0  0.3 328744 14576 ?        Ssl  Jan24   0:01 /usr/libexec/colord
+root        2306  0.1  0.2 325980  9600 ?        Ssl  Jan24   0:19 /usr/libexec/upowerd
+root        2624  0.0  0.2 324984 11008 ?        Sl   Jan24   0:00 gdm-session-worker [pam/gdm-password]
+saravan+    2635  0.1  0.3  21644 13124 ?        Ss   Jan24   0:17 /usr/lib/systemd/systemd --user
+saravan+    2640  0.0  0.0  21456  3724 ?        S    Jan24   0:00 (sd-pam)
+saravan+    2654  0.0  0.3 125540 16004 ?        Ssl  Jan24   0:10 /usr/bin/pipewire
+saravan+    2656  0.0  0.1 106404  6016 ?        Ssl  Jan24   0:00 /usr/bin/pipewire -c filter-chain.conf
+saravan+    2658  0.0  0.4 416148 19456 ?        Ssl  Jan24   0:06 /usr/bin/wireplumber
+saravan+    2659  0.0  0.3 133840 15008 ?        Ssl  Jan24   0:02 /usr/bin/pipewire-pulse
+saravan+    2660  0.0  0.1  11116  6908 ?        Ss   Jan24   0:11 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+saravan+    2661  0.0  0.2 325176 10112 ?        SLsl Jan24   0:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+saravan+    2705  0.0  0.1 693724  7296 ?        Ssl  Jan24   0:00 /usr/libexec/xdg-document-portal
+saravan+    2711  0.0  0.1 317976  6272 ?        Ssl  Jan24   0:00 /usr/libexec/xdg-permission-store
+saravan+    2722  0.0  0.1 244336  6016 tty2     Ssl+ Jan24   0:00 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+saravan+    2729  0.0  0.4 306876 16384 tty2     Sl+  Jan24   0:00 /usr/libexec/gnome-session-binary --session=ubuntu
+root        2732  0.0  0.0   2704  1792 ?        Ss   Jan24   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+saravan+    2816  0.0  0.1 162652  6656 ?        Ssl  Jan24   0:00 /usr/libexec/gcr-ssh-agent --base-dir /run/user/1000/gcr
+saravan+    2817  0.0  0.1 100216  5632 ?        Ssl  Jan24   0:00 /usr/libexec/gnome-session-ctl --monitor
+saravan+    2824  0.0  0.1 322932  7936 ?        Ssl  Jan24   0:00 /usr/libexec/gvfsd
+saravan+    2844  0.0  0.1 468380  7040 ?        Sl   Jan24   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+saravan+    2850  0.0  0.4 602860 18304 ?        Ssl  Jan24   0:01 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+saravan+    2886  0.0  0.1 382940  7680 ?        Sl   Jan24   0:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+saravan+    2890 11.4 10.5 4029412 424076 ?      Ssl  Jan24  29:27 /usr/bin/gnome-shell
+saravan+    2903  0.0  0.1   9608  4992 ?        S    Jan24   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+saravan+    2957  0.0  0.1 236068  7552 ?        Sl   Jan24   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+saravan+    2976  0.0  0.4 654772 17664 ?        Sl   Jan24   0:00 /usr/libexec/gnome-shell-calendar-server
+saravan+    2991  0.0  0.6 2536196 26812 ?       Sl   Jan24   0:00 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+saravan+    2992  0.0  1.0 1009984 43136 ?       Ssl  Jan24   0:01 /usr/libexec/evolution-source-registry
+saravan+    3006  0.1  0.3 397508 12216 ?        Ssl  Jan24   0:21 /usr/bin/ibus-daemon --panel disable
+saravan+    3008  0.0  0.1 392188  6528 ?        Ssl  Jan24   0:00 /usr/libexec/gsd-a11y-settings
+saravan+    3009  0.0  0.5 421564 20476 ?        Ssl  Jan24   0:00 /usr/libexec/gsd-color
+saravan+    3013  0.0  0.3 440336 12288 ?        Ssl  Jan24   0:00 /usr/libexec/gsd-datetime
+saravan+    3015  0.0  0.1 467536  7936 ?        Ssl  Jan24   0:00 /usr/libexec/gsd-housekeeping
+saravan+    3019  0.0  0.4 420420 19844 ?        Ssl  Jan24   0:00 /usr/libexec/gsd-keyboard
+saravan+    3022  0.0  0.6 750136 25212 ?        Ssl  Jan24   0:01 /usr/libexec/gsd-media-keys
+saravan+    3024  0.0  0.6 605908 24320 ?        Ssl  Jan24   0:01 /usr/libexec/gsd-power
+saravan+    3025  0.0  0.2 332312 11520 ?        Ssl  Jan24   0:00 /usr/libexec/gsd-print-notifications
+saravan+    3026  0.0  0.1 539752  6656 ?        Ssl  Jan24   0:00 /usr/libexec/gsd-rfkill
+saravan+    3028  0.0  0.1 318228  6144 ?        Ssl  Jan24   0:00 /usr/libexec/gsd-screensaver-proxy
+saravan+    3031  0.0  0.2 551864 11648 ?        Ssl  Jan24   0:00 /usr/libexec/gsd-sharing
+saravan+    3034  0.0  0.2 394488  8064 ?        Ssl  Jan24   0:00 /usr/libexec/gsd-smartcard
+saravan+    3036  0.0  0.2 402308  9728 ?        Ssl  Jan24   0:00 /usr/libexec/gsd-sound
+saravan+    3037  0.0  0.5 495128 20352 ?        Ssl  Jan24   0:00 /usr/libexec/gsd-wacom
+saravan+    3059  0.0  1.4 823164 60028 ?        Sl   Jan24   0:02 /usr/libexec/evolution-data-server/evolution-alarm-notify
+saravan+    3067  0.0  0.1 305624  7040 ?        Sl   Jan24   0:00 /usr/libexec/gsd-disk-utility-notify
+saravan+    3175  0.0  1.4 216612 59196 ?        S    Jan24   0:01 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.LFRC12 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients
+saravan+    3176  0.0  0.1 245316  7040 ?        Sl   Jan24   0:00 /usr/libexec/ibus-memconf
+saravan+    3178  0.1  1.1 435836 44796 ?        Sl   Jan24   0:26 /usr/libexec/ibus-extension-gtk3
+saravan+    3199  0.0  0.1 319096  7296 ?        Sl   Jan24   0:00 /usr/libexec/ibus-portal
+saravan+    3243  0.0  0.3 424872 14848 ?        Sl   Jan24   0:00 /usr/libexec/gsd-printer
+saravan+    3257  0.0  0.2 471692 11264 ?        Ssl  Jan24   0:01 /usr/libexec/gvfs-udisks2-volume-monitor
+saravan+    3283  0.0  0.5 555316 23936 ?        Sl   Jan24   0:00 /usr/libexec/goa-daemon
+saravan+    3297  0.0  0.1 319428  6912 ?        Ssl  Jan24   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+saravan+    3300  0.0  0.2 397796  9344 ?        Sl   Jan24   0:00 /usr/libexec/goa-identity-service
+saravan+    3315  0.0  0.6 899400 24320 ?        Ssl  Jan24   0:01 /usr/libexec/evolution-calendar-factory
+saravan+    3319  0.0  0.1 318440  6528 ?        Ssl  Jan24   0:00 /usr/libexec/gvfs-goa-volume-monitor
+saravan+    3328  0.0  0.1 318460  6400 ?        Ssl  Jan24   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+saravan+    3333  0.0  0.2 398044  8064 ?        Ssl  Jan24   0:02 /usr/libexec/gvfs-afc-volume-monitor
+saravan+    3348  0.0  0.7 760356 29824 ?        Ssl  Jan24   0:00 /usr/libexec/evolution-addressbook-factory
+saravan+    3366  0.0  0.1 245440  7424 ?        Sl   Jan24   0:07 /usr/libexec/ibus-engine-simple
+saravan+    3388  0.0  0.1 230220  5760 ?        Ssl  Jan24   0:00 /usr/libexec/dconf-service
+saravan+    3414  0.0  0.1 245008  6528 ?        Ssl  Jan24   0:00 /usr/libexec/gvfsd-metadata
+saravan+    3415  0.0  0.2 544380  9088 ?        Sl   Jan24   0:00 /usr/libexec/gvfsd-trash --spawner :1.19 /org/gtk/gvfs/exec_spaw/0
+saravan+    3452  0.0  0.6 2601664 27280 ?       Sl   Jan24   0:00 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+saravan+    3463  0.0  1.8 622480 75264 ?        Ssl  Jan24   0:01 /usr/libexec/gsd-xsettings
+saravan+    3484  0.0  0.3 775932 14612 ?        Ssl  Jan24   0:02 /usr/libexec/xdg-desktop-portal
+saravan+    3577  0.0  0.6 275532 24192 ?        Sl   Jan24   0:00 /usr/libexec/ibus-x11
+saravan+    3580  0.0  0.7 890688 28096 ?        SNsl Jan24   0:03 /usr/libexec/tracker-miner-fs-3
+saravan+    3581  0.0  1.0 639360 43788 ?        Ssl  Jan24   0:01 /usr/libexec/xdg-desktop-portal-gnome
+saravan+    3594  0.0  2.2 1098756 89604 ?       Sl   Jan24   0:01 /usr/libexec/mutter-x11-frames
+saravan+    3597  0.0  0.0  28124  1448 ?        S    Jan24   0:00 /usr/bin/VBoxClient --clipboard
+saravan+    3598  0.0  0.3 235036 12644 ?        Sl   Jan24   0:00 /usr/bin/VBoxClient --clipboard
+saravan+    3633  0.0  0.0  28124  1448 ?        S    Jan24   0:00 /usr/bin/VBoxClient --vmsvga
+saravan+    3634  0.0  0.0 226592  3496 ?        Sl   Jan24   0:08 /usr/bin/VBoxClient --vmsvga
+saravan+    3661  0.0  0.6 426444 25988 ?        Ssl  Jan24   0:00 /usr/libexec/xdg-desktop-portal-gtk
+saravan+    3825  0.0  0.7 500924 28164 ?        Sl   Jan24   0:02 /usr/bin/update-notifier
+saravan+    3875  0.0  0.4  40560 18944 ?        S    Jan24   0:00 /usr/bin/python3 /usr/bin/gnome-terminal --wait
+saravan+    3876  0.0  0.7 467596 29184 ?        Sl   Jan24   0:00 /usr/bin/gnome-terminal.real --wait
+saravan+    3882  0.1  1.5 713688 61828 ?        Rsl  Jan24   0:26 /usr/libexec/gnome-terminal-server
+saravan+    3889  0.0  0.1  19692  4992 pts/0    Ss   Jan24   0:00 bash
+root        5260  0.0  0.0      0     0 ?        S    Jan24   0:00 [psimon]
+saravan+    5399  0.0  0.2  39128 11904 ?        Ss   Jan24   0:01 /snap/snapd-desktop-integration/253/usr/bin/snapd-desktop-integration
+saravan+    5553  0.0  0.7 429580 31448 ?        Sl   Jan24   0:01 /snap/snapd-desktop-integration/253/usr/bin/snapd-desktop-integration
+saravan+    5753  0.0  0.2 323168  8448 ?        Sl   Jan24   0:00 /usr/libexec/gvfsd-recent --spawner :1.19 /org/gtk/gvfs/exec_spaw/1
+root        5833  0.0  3.6 672664 147596 ?       Ssl  Jan24   0:09 /usr/libexec/fwupd/fwupd
+root        5862  0.0  0.0  92648  2616 ?        Ss   Jan24   0:00 gpg-agent --homedir /var/lib/fwupd/gnupg --use-standard-socket --daemon
+saravan+    5942  0.0  0.2 397132  8704 ?        Sl   Jan24   0:00 /usr/libexec/gvfsd-network --spawner :1.19 /org/gtk/gvfs/exec_spaw/2
+saravan+    5960  0.0  0.2 399216  9088 ?        Sl   Jan24   0:00 /usr/libexec/gvfsd-dnssd --spawner :1.19 /org/gtk/gvfs/exec_spaw/4
+root        6303  0.0  0.0      0     0 ?        I    Jan24   0:04 [kworker/u4:1-flush-8:0]
+root        6315  0.0  0.1 1524584 4992 ?        Ssl  Jan24   0:00 /usr/lib/snapd/snap-failure snapd
+root        6332  0.1  0.7 1319908 31616 ?       Sl   Jan24   0:05 /snap/snapd/21759/usr/lib/snapd/snapd
+root        6334  0.0  0.4  50716 16768 ?        S<s  Jan24   0:00 /usr/lib/systemd/systemd-journald
+root        6953  0.2  0.0      0     0 ?        I    Jan24   0:09 [kworker/1:2-cgroup_destroy]
+root        6994  0.0  0.0      0     0 ?        I<   Jan24   0:00 [kworker/0:2H-kblockd]
+root        7091  0.1  0.0      0     0 ?        I    Jan24   0:04 [kworker/u4:2-events_power_efficient]
+root        7186  0.0  0.0      0     0 ?        I    Jan24   0:00 [kworker/0:1-cgroup_destroy]
+root        7316  0.1  0.0      0     0 ?        I    Jan24   0:02 [kworker/1:1-events]
+root        7375  0.2  0.0      0     0 ?        I    Jan24   0:04 [kworker/u4:0-events_unbound]
+root        7394  0.0  0.0      0     0 ?        I<   Jan24   0:00 [kworker/1:2H-kblockd]
+root        7447  0.0  0.0      0     0 ?        I    Jan24   0:00 [kworker/0:0-cgroup_destroy]
+saravan+    7506  0.2  1.6 2818420 65524 ?       Sl   Jan24   0:01 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+root        7533  0.0  0.0      0     0 ?        I<   Jan24   0:00 [kworker/0:1H-kblockd]
+root        7555  0.1  0.0      0     0 ?        I    00:00   0:00 [kworker/u4:4-events_unbound]
+root        7684  0.0  0.0      0     0 ?        I    00:01   0:00 [kworker/1:3]
+root        7754  0.0  0.0      0     0 ?        I    00:07   0:00 [kworker/0:2-events]
+root        7756  0.0  0.0      0     0 ?        I<   00:07   0:00 [kworker/1:1H]
+root        7808  0.0  0.0      0     0 ?        I    00:09   0:00 [kworker/0:3-events]
+saravan+    7907  300  0.1  22284  4480 pts/0    R+   00:14   0:00 ps aux

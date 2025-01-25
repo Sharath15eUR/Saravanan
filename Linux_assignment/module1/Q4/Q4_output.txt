@@ -1,0 +1,5 @@
+   38 cd Linux_assignment/module1
+   39 mkdir Q4
+   40 cd Q4
+   41 ps aux
+   42 history > Q4_output.txt

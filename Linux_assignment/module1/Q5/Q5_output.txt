@@ -1,0 +1,11 @@
+    1  clear
+    2  cd Q5
+    3  touch file1.txt
+    4  touch file2.txt
+    5  touch file3.txt
+    6  ls -lt Q5
+    7  cd
+    8  cd Linux_assignment/module1
+    9  ls -lt Q5
+   10  ls -lt Q5>Q5/file_sorted.txt
+   11  history >Q5/Q5_output.txt
