@@ -1,8 +1,0 @@
-DEBUG: Starting the application initialization.
-DEBUG: Fetching configuration settings from the server.
-ERROR: DEBUG - Configuration settings could not be applied.
-DEBUG: Connection to server timed out. Retrying...
-ERROR: DEBUG - Query execution failed due to a syntax error.
-DEBUG: Reloading application modules.
-DEBUG: Closing unused network connections.
-ERROR: DEBUG - Unexpected server response received.

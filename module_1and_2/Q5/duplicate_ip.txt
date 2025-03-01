@@ -1,0 +1,8 @@
+When two devices on the same network are assigned the same IP address, it creates an IP conflict. This leads to the following issues:
+
+Network Instability – Both devices may randomly drop connections.
+Packet Loss – Data packets may go to the wrong device or get lost.
+MAC Address Flapping – The network switch alternates between two MAC addresses for the same IP.
+ARP Conflicts – Devices will continuously send ARP requests to resolve the correct MAC address.
+Security Risks – An attacker can intentionally configure a duplicate IP for a Man-in-the-Middle (MITM) attack.
+

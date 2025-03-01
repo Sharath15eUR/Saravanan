@@ -1,0 +1,18 @@
+Ethernet Interface (enp0s3)
+
+IP Address: 192.168.29.228 (IPv4), multiple IPv6 addresses assigned
+Subnet Mask: 255.255.255.0
+Broadcast Address: 192.168.29.255
+MAC Address: 08:00:27:ce:5a:7a
+MTU: 1500
+Data Usage:
+Received: 247.4 MB (189,840 packets)
+Transmitted: 3.9 MB (46,492 packets)
+Errors & Drops: None
+Loopback Interface (lo)
+
+IP Address: 127.0.0.1 (IPv4), ::1 (IPv6)
+MTU: 65536
+Data Usage:
+Received & Transmitted: 138.2 KB (813 packets each)
+There is no connections for iwconfig
