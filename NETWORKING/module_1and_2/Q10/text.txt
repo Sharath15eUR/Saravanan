@@ -1,0 +1,6 @@
+A DHCP server assigns IP addresses using the DORA process:
+
+Discover – The client broadcasts a request for an IP.
+Offer – The server responds with an available IP.
+Request – The client requests the offered IP.
+Acknowledge – The server confirms and assigns the IP.
