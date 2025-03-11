@@ -1,0 +1,5 @@
+Sender MAC Address: 08:00:27:ce:5a:7a (PCSystemtec).
+Receiver MAC Address: a8:da:0c:93:7c:3d (ServercomPri).
+EtherType: 0x0800 (IPv4).
+Frame Check Sequence (FCS): Incorrect 0x3c3d3e3f, should be 0x97289b89.
+Payload: ICMP data with 44 bytes.

@@ -1,0 +1,30 @@
+The ip command is a powerful tool for managing network interfaces to configure a LAN interface (enp0s3).
+
+1. Check Available Network Interfaces
+To list all network interfaces on your system:
+
+cmd: ip link show
+
+2. Enable the Network Interface
+To bring the interface online:
+
+cmd: ip link set dev enp0s3 up
+
+3. Assign an IP Address
+To set an IP address for the interface:
+
+cmd: ip addr add 192.168.1.16/24 dev enp0s3
+
+4. Verify the Configuration
+To check if the IP address is assigned:
+
+cmd:ip addr show enp0s3
+
+
+5. Disable the Network Interface
+To turn off the interface when needed:
+
+cmd: ip link set dev enp0s3 down
+
+
+
