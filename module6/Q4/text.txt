@@ -1,0 +1,17 @@
+192.168.10.5:
+Class C: The first octet (192) falls within the range of Class C (192-223).
+Private IP: The IP address 192.168.x.x falls within the private IP range defined by RFC 1918.
+
+172.20.15.1:
+class B: The first octet (172) falls within the range of Class B (128-191).
+Private IP: The IP address 172.16.x.x to 172.31.x.x is reserved for private networks, and this IP falls within that range.
+
+8.8.8.8:
+Class A: The first octet (8) falls within the range of Class A (1-126).
+Public IP: It is a public IP address, commonly known as Google's DNS server.
+
+IP address classes are determined based on the first octet.
+Whether an IP is private or public depends on the ranges defined by RFC 1918 for private networks:
+Class A Private: 10.0.0.0 to 10.255.255.255
+Class B Private: 172.16.0.0 to 172.31.255.255
+Class C Private: 192.168.0.0 to 192.168.255.255

@@ -1,0 +1,13 @@
+In computer networks, when two subnets are connected through different routers, communication fails at first due to the absence of routing information.
+
+The Routing Table can be updated in two ways:
+
+Method 1: Through the Configuration Tab:
+
+The router’s configuration section allows adding the Network ID, Subnet Mask, and Next Hop IP address manually.
+
+Method 2: Using the Router's CLI (Command Line Interface):
+
+The ip route command is used to manually add the route to the destination network.
+Syntax:ip route 192.168.4.0 255.255.255.0 192.168.10.2
+The successful connection between devices can be verified using tracert and ping commands after updating the routing table.

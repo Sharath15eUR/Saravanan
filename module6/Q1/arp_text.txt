@@ -1,0 +1,21 @@
+ARP stands for Address Resolution Protocol. 
+It is a communication protocol used to map an IP address (Layer 3 - Network Layer) to a MAC address 
+(Layer 2 - Data Link Layer) within a local network.
+When a device wants to send data packets to another device within the same network, 
+it knows the IP address of the destination device but doesn't know the MAC address. 
+Since data frames in the Ethernet network use MAC addresses for communication, 
+ARP is used to resolve the IP address to the corresponding MAC address.
+IMPORTANCE OF ARP IN PACKET FORWARDING:
+ARP resolves the IP address to the corresponding MAC address, enabling devices to communicate within the same network.
+
+When a packet needs to be forwarded to a device in a different network, ARP helps in finding the MAC address of the gateway or router, allowing smooth packet transmission.
+
+By maintaining an IP-MAC mapping table, ARP helps in diagnosing and troubleshooting network connectivity issues efficiently.
+
+
+
+
+
+
+
+
