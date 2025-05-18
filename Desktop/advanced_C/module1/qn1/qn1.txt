@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include <string.h>
+  struct day {
+    char dayname[10];
+    char task[3][60];
+    int count;
+};
+
+int main(){
+        struct day week[7] ={
+          {"Monday", {}, 0}, {"Tuesday", {}, 0}, {"Wednesday", {}, 0},
+        {"Thursday", {}, 0}, {"Friday", {}, 0}, {"Saturday", {}, 0}, {"Sunday", {}, 0}
+    };
+    int i,j;
+    int taskcount;
+    for(i=0;i<7;i++){
+        printf("enter the no of task for %s:",week[i].dayname);
+        scanf("%d",&taskcount);
+        getchar();
+        week[i].count=taskcount;
+    
+    for(j=0;j<3&& j<week[i].count;j++){
+        printf("enter the task %d:",j+1);
+        fgets(week[i].task[j],50,stdin);
+        week[i].task[j] [strcspn(week[i].task[j],"\n")]=0;
+        
+    }}
+   for (i = 0; i < 7; i++) {
+        printf("%s:\n", week[i].dayname);
+        for (j = 0; j < week[i].count; j++) {
+            printf("  - %s\n", week[i].task[j]);
+        }
+    }
+
+    return 0;
+}
+
