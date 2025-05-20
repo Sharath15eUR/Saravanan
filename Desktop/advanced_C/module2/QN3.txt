@@ -1,0 +1,47 @@
+1. Child Process – fork()
+fork() is a system call used in C to create a new process. 
+It returns 0 to the child and the child’s PID to the parent.
+After fork(), both processes run independently but share the same code base.
+It is used for process management and running parallel tasks.
+
+2. Handling Common Signals
+Signals like SIGINT or SIGTERM are sent to processes for interruptions or termination.
+Using signal() we can catch and handle them to prevent abrupt exits. 
+This is useful for cleaning up resources or showing user-friendly messages.
+
+3. Exploring Different Kernel Crashes
+
+Kernel crashes occur due to bugs in kernel code, drivers, or improper hardware handling.
+Examples include segmentation faults, null pointer dereferencing, stack overflows in kernel space.
+Tools like `dmesg`, `syslog`, and crash dump analysis help trace the cause.
+Crashes like kernel panic halt the system and are critical to diagnose.
+Exploring this area builds a strong foundation in OS internals and debugging techniques.
+
+4.Time complexity 
+It tells us how fast or slow a program runs depending on the size of the input. It gives a mathematical estimate of the number of operations your code performs as input size increases.
+O(1) – Constant Time
+O(log n) – Logarithmic Time
+O(n) – Linear Time
+O(n log n) – Linearithmic Time
+O(n²) – Quadratic Time
+O(n³) – Cubic Time
+O(2ⁿ) – Exponential Time
+O(n!) – Factorial Time
+Helps predict performance.
+Tells whether your code will work efficiently for large inputs.
+
+5.Deadlock mechanism 
+A mutex ensures that only one thread accesses a critical section (shared resource) at a time.
+If a thread can't get the lock, it sleeps (waits) until the lock is free
+A spinlock also ensures mutual exclusion.
+BUT: If a thread can’t acquire the lock, it keeps checking (spinning) in a loop instead of sleeping.
+
+
+
+
+
+
+
+
+
+
